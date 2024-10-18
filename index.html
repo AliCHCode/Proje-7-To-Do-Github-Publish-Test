@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <h1>To - Do List</h1>
+<div class="main-container">
+    <div class="remain-container">
+        <p class="remain-text">0 remain mission</p>
+        <!-- <div class="delete">Delete all</div> -->
+    </div>   <!--burada kaç adet yapılacak iş kaldığı yazacak, eğer kalmadıysa yapılacak iş yok diyecek ve deleteye bastığında tikli ve üstü çizili olanlar silinecek-->
+    
+    <div class="input-container">
+        <input class="to-do-input" type="text" placeholder="Type a to do">   <!--enter a basınca ve add e basınca eklesin-->
+        <div class="add-button" data-update="-1">Add</div>   <!-- burada inputa görev girilecek add butonuna basınca listeye ekleyecek.-->
+    </div>
+
+    
+    <div class="list-container">  <!-- burada yapılacaklar listesi olacak-->
+        <div class="to-do-container">
+            <ul class="upper-list">
+                
+            </ul>
+            <!-- <div class="tick"></div>                                
+            <p class="content-text"></p> -->
+        </div>
+    </div>
+    
+  
+</div>
+    <script src="/index.js"></script>
+</body>
+</html>
